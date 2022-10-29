@@ -9,7 +9,7 @@ app.listen(port,()=>{
 app.get('/',(req,res)=>{
     res.json({
         slackUsername:"deverence",
-        backend:"true",
+        backend:true,
         age:27,
         bio:"a fullstack MERN stack web developer trying to build more node.js muscle"
     })
